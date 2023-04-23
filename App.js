@@ -1,13 +1,5 @@
 import * as React from 'react';
-import {
-  Text,
-  View,
-  StyleSheet,
-  TextInput,
-  TouchableOpacity,
-  Image,
-  Alert
-} from 'react-native';
+import {Text,View,StyleSheet,TextInput,TouchableOpacity,Image,Alert} from 'react-native';
 import { Header } from 'react-native-elements';
 import db from './localdb';
 import PhonicSoundButton from './components/PhonicSoundButton';
@@ -88,6 +80,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     borderWidth: 4,
     outline: 'none',
+    borderRadius: 20,
   },
   goButton: {
     width: '50%',
